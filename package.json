@@ -1,7 +1,7 @@
 {
-  "name": "example",
+  "name": "scraper",
   "version": "0.0.0",
-  "description": "A template for Node with TypeScript.",
+  "description": "A template for creating a Node web scraper with TypeScript.",
   "main": "index.js",
   "author": "Jasper Dunn <jasperdunn93@gmail.com>",
   "license": "MIT",
