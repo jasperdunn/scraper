@@ -1,12 +1,11 @@
 {
   "compilerOptions": {
-    "baseUrl": "src",
-    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
     "exactOptionalPropertyTypes": true,
     "forceConsistentCasingInFileNames": true,
     "isolatedModules": true,
     "lib": ["es6", "dom"],
-    "module": "commonjs",
+    "module": "es6",
     "moduleResolution": "node",
     "noImplicitReturns": true,
     "noPropertyAccessFromIndexSignature": true,
