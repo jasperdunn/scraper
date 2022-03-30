@@ -2,13 +2,15 @@
   "name": "scraper",
   "version": "0.0.0",
   "description": "A template for creating a Node web scraper with TypeScript.",
-  "main": "index.js",
+  "main": "dist/index.js",
   "type": "module",
   "author": "Jasper Dunn <jasperdunn93@gmail.com>",
   "license": "MIT",
   "private": true,
   "scripts": {
-    "start": "chokidar src/*.ts --initial --silent -c \"tsc && node --experimental-specifier-resolution=node dist/index.js\""
+    "start": "chokidar \"src/**/*.ts\" --initial --silent -c \"tsc && node --experimental-specifier-resolution=node dist/index.js\"",
+    "dev": "chokidar \"src/**/*.ts\" --initial --silent -c \"tsc && node --experimental-specifier-resolution=node dist/index.js  --dev\"",
+    "log": "chokidar \"src/**/*.ts\" --initial --silent -c \"tsc && node --experimental-specifier-resolution=node dist/index.js  --log\""
   },
   "dependencies": {
     "chalk": "4.1.2",
